@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.meroapp.tophackernews"
+        version="0.7.0">
+
+  <name>TopHackerNews</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <platform name="ios">
+    
+    <config-file target="config.xml" parent="/widget">
+      <feature name="TopHackerNews">
+        <param name="ios-package" value="TopHackerNewsPlugin" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/TopHackerNewsPlugin.h" target-dir="TopHackerNews"/>
+    <source-file src="src/ios/TopHackerNewsPlugin.m" target-dir="TopHackerNews"/>
+          
+          <header-file src="src/ios/TopHackerNewsManager.h" target-dir="TopHackerNews"/>
+           <source-file src="src/ios/TopHackerNewsManager.m" target-dir="TopHackerNews"/>
+  </platform>
+
+</plugin>

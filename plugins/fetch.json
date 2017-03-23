@@ -1,0 +1,28 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.example.hello": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/harikrishnabista/myCordovaPlugin",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.meroapp.tophackernews": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/harikrishnabista/TopHackerNews.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__38-[TopHackerNewsPlugin showHackerNews:]_block_invoke:TopHackerNewsPlugin.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

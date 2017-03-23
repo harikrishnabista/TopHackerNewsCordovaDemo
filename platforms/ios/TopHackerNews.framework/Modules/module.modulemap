@@ -1,0 +1,6 @@
+framework module TopHackerNews {
+  umbrella header "TopHackerNews.h"
+
+  export *
+  module * { export * }
+}
